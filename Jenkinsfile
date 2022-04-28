@@ -1,12 +1,12 @@
 pipeline { 
     agent any  
     stages { 
-        stage('sample1') {
+        stage("sample1") {
           steps {
             echo 'summition'
           }
         }
-        stage('sample 2') { 
+        stage("sample 2") { 
             steps { 
                echo 'addition...' 
                bat 'python exam.py'
